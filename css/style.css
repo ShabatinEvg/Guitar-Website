@@ -58,6 +58,7 @@ li{
     margin: 0 auto;
     padding: 0px 15px;
 }
+.page__store {}
 
 /*---------------------------------------------*/
 .header {
@@ -255,3 +256,62 @@ li{
         margin-bottom: 15px;
 }
 }
+/*---------------------------------------------*/
+
+
+.store {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.store__container {
+}
+.store__title {
+    margin-bottom: 86px;
+}
+.store__body {}
+.body-store {}
+.body-store__header {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.body-store__title {
+    letter-spacing: 0.08em;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #121212;
+    font-weight: 600;
+}
+.body-store__all {
+    color: #868686;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.body-store__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px;
+}
+.body-store__item {}
+
+.item {
+    display: grid;
+}
+.item__image {}
+.item__image:not(:last-child){
+    margin-bottom: 40px;
+}
+.item__titel {
+    color: #121212;
+    font-size: 16px;
+    line-height: 1.5;
+    justify-self: underline;
+}
+.item__titel:hover{
+    text-decoration: underline;
+}
+.item__prace {}
