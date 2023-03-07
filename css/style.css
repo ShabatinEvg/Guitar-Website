@@ -269,7 +269,12 @@ li{
     margin-bottom: 86px;
 }
 .store__body {}
-.body-store {}
+
+.body-store-NEW {
+    margin-bottom: 95px;
+}
+/*.body-store-TOP {}*/
+
 .body-store__header {
     margin-bottom: 32px;
     display: flex;
@@ -277,6 +282,7 @@ li{
     justify-content: space-between;
     gap: 15px;
 }
+
 .body-store__title {
     letter-spacing: 0.08em;
     font-size: 20px;
@@ -307,6 +313,7 @@ li{
 }
 .item__titel {
     color: #121212;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     justify-self: underline;
@@ -314,4 +321,7 @@ li{
 .item__titel:hover{
     text-decoration: underline;
 }
-.item__prace {}
+.item__prace {
+    font-size: 14px;
+    line-height: 21px;
+}
