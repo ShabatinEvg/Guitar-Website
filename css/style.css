@@ -69,6 +69,7 @@ li{
 .page__brands {}
 .page__why {}
 .page__reviews {}
+.page__favorite {}
 
 /*---------------------------------------------*/
 .header {
@@ -762,3 +763,61 @@ li{
     }
 }
 /*---------------------------------------------*/
+
+.fevorit {
+    padding-bottom: 120px;
+}
+.favorite__container {
+    display: flex;
+    align-items: center;
+}
+.favorite__body {
+    padding-right: 20px;
+    flex: 0 1 50%;
+}
+.favorite__title {
+    text-align: left;
+    font-size: 48px;
+    line-height: 140%;
+}
+.favorite__title:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.favorite__apps {}
+.apps-favorite {
+    display: flex;
+    gap: 25px;
+}
+.apps-favorite__item {}
+.apps-favorite__item img {
+    max-width: 100%;
+}
+.favorite__images {
+    flex: 0 1 50%;
+    text-align: center;
+}
+.favorite__images img {
+    max-width: 100%;
+}
+@media (max-width: 991.98px) {
+    .fevorit {
+        padding-bottom: 50px;
+    }
+    .favorite__container {
+        flex-direction: column;
+    }
+    .favorite__title {
+        font-size: 38px;
+    }
+    .favorite__title:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 767.98px) {
+    .fevorit {
+        padding-bottom: 30px;
+    }
+}
+/*---------------------------------------------*/
+
